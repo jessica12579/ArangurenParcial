@@ -6,17 +6,18 @@
 #define ARANGURENPARCIAL_SERVICE_H
 
 
+
 class Service {
-
 public:
-    Service();
-    Service(const std::string &vehiclePlace, int galons, double galonCost);
+Service();
 
+    Service(const std::string &vehiclePlate, int galons, double serviceValue);
 
 private:
-    std:: string vehiclePlace;
-    int galons;
-    double serviceValue;
+    std::string vehiclePlate;
+int galons;
+double serviceValue;
+
 };
 
 

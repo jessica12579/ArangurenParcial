@@ -4,12 +4,18 @@
 
 #ifndef ARANGURENPARCIAL_MANAGEMENT_H
 #define ARANGURENPARCIAL_MANAGEMENT_H
-
+#include "Management.h"
 
 class Management {
-private:
+
 
 public:
+    Management();
+    bool addOilStation(std::string estation, std::string placa, double );
+
+private:
+    OilStation
+
 
 };
 
