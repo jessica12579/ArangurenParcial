@@ -8,6 +8,15 @@
 
 class Service {
 
+public:
+    Service();
+    Service(const std::string &vehiclePlace, int galons, double galonCost);
+
+
+private:
+    std:: string vehiclePlace;
+    int galons;
+    double serviceValue;
 };
 
 
