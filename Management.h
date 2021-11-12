@@ -11,12 +11,16 @@ class Management {
 
 public:
     Management();
-    bool addOilStation(std::string estation, std::string placa, double );
+    bool addOilStation(std::string estation, std::string placa, double galones);
+    bool addService(std::string placa, std::string estacion, int galones);
+    int countService(std::string estacion);
+    double sumService(std::string placa);
+
 
 private:
-    OilStation
-
-
+    OilStation* findOilStation(String idOilStation);
+    vector<OilStation*> oilStation;
+    vector<*> oilStation;
 };
 
 

@@ -4,7 +4,7 @@
 
 #ifndef ARANGURENPARCIAL_OILSTATION_H
 #define ARANGURENPARCIAL_OILSTATION_H
-#include"OilStation.cpp"
+
 
 
 class OilStation {
@@ -24,6 +24,7 @@ public:
     double getGalonCost() const;
 
     void setGalonCost(double galonCost);
+
 
 private:
    std::string idStation;

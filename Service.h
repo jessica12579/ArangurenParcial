@@ -9,9 +9,14 @@
 
 class Service {
 public:
-Service();
-
+    Service();
     Service(const std::string &vehiclePlate, int galons, double serviceValue);
+
+    const std::string &getVehiclePlate() const;
+
+    int getGalons() const;
+
+    double getServiceValue() const;
 
 private:
     std::string vehiclePlate;
